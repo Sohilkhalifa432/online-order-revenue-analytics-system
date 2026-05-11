@@ -1,0 +1,5 @@
+.DS_Store
+.vscode/
+**/.DS_Store
+notebooks/.ipynb_checkpoints/
+**/__pycache__/
