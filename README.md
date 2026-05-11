@@ -101,7 +101,7 @@ Built as a portfolio project to demonstrate end-to-end data analytics skills acr
 
 ## 📬 Connect
 
-If you found this project interesting or have feedback, feel free to connect on [LinkedIn](#) or raise an issue in this repo!
+If you found this project interesting or have feedback, feel free to connect on  or https://www.linkedin.com/in/sohil-khalifa-5246052b9/ raise an issue in this repo!
 
 ---
 
