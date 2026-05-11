@@ -27,20 +27,15 @@ Most businesses track total sales but miss the patterns hidden inside their data
 ## 📂 Project Structure
 
 ```
-online-order-revenue-analytics/
+online-order-revenue-analytics-system/
 │
 ├── data/
-│   └── orders_raw.csv               # Raw dataset (400K+ transactions)
+│   └── data.csv                     # Raw dataset (400K+ transactions)
 │
-├── sql/
-│   └── database_setup.sql           # DB creation, data loading & queries
+├── notebooks/
+│   └── data_cleaning.ipynb          # Data cleaning & EDA — revenue, products, customers, geography
 │
-├── python/
-│   ├── data_cleaning.ipynb          # Null handling, type conversion, deduplication
-│   └── eda_analysis.ipynb           # Full EDA — revenue, products, customers, geography
-│
-├── dashboard/
-│   └── revenue_analytics.pbix       # Power BI interactive dashboard
+├── dashboard.jpeg                   # Power BI dashboard screenshot
 │
 └── README.md
 ```
@@ -93,35 +88,6 @@ The interactive dashboard covers:
 - 👤 **Customer segmentation** (Pareto analysis)
 - 🔄 **Return analysis** by product and region
 - 🌐 **Country-wise revenue distribution**
-
----
-
-## 🚀 How to Run This Project
-
-### 1. Set Up the Database
-```sql
--- Run the SQL setup script
-source sql/database_setup.sql
-```
-
-### 2. Run the Python Notebooks
-```bash
-pip install pandas matplotlib seaborn jupyter
-jupyter notebook python/data_cleaning.ipynb
-jupyter notebook python/eda_analysis.ipynb
-```
-
-### 3. Open the Power BI Dashboard
-- Open `dashboard/revenue_analytics.pbix` in **Power BI Desktop**
-- Refresh the data source if needed
-
----
-
-## 📈 Dataset
-
-- **Size:** 400,000+ records
-- **Type:** Real-world online order transactions
-- **Fields include:** Order ID, Product, Quantity, Unit Price, Customer ID, Country, Order Date, Return Status
 
 ---
 
